@@ -1,0 +1,396 @@
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: center;
+}
+
+.txt-normal {
+	font-size: 12px;
+	text-align: center;
+}
+
+.sendButton {
+	display: block;
+	font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
+
+.coord-carte{
+	font-size: 11px;
+	color: #29669f;
+}
+
+.case-vide {
+	background-color: #ecf4fd;
+}
+
+.case-info-title {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.case-info-obsolete{
+	font-weight: bold;
+	font-size: 14px;
+	color: #bf0000;
+}
+
+.case-info-distance {
+	color: #6e7176;
+	font-size: 10px;
+}
+
+.case-info-date-conquete {
+	font-size: 10px;
+}
+
+.case-info-date {
+	font-size: 11px;
+	color: #29669f;
+}
+
+.case-info-surveillance {
+	font-size: 11px;
+	color: #a78031;
+}
+
+.case-info-surveillance-bat {
+	font-size: 10px;
+	color: #a78031;
+}
+
+.case-info-name {
+	font-weight: bold;
+}
+
+.case-info-name-mort {
+	font-weight: bold;
+	text-decoration: line-through;
+}
+
+.case-info-secondaire {
+	font-size: 9px;
+	font-style: italic;
+	color: #6e7176;
+}
+
+.case-info-secondaire2 {
+	font-size: 9px;
+	font-style: italic;
+	color: #3c6aa9;
+}
+
+.case-info-type-terrain {
+	font-size: 11px;
+	color: #114ac9;
+	text-decoration: blink;
+	font-weight: bold;
+}
+
+.tooltip {
+	border: 1px solid #8d93a6;
+	padding: 2px 3px 3px 3px;
+	background-repeat: repeat;
+	background-image: url(img/css/bkgnd-tooltip.png);
+}
+
+.tooltip-titre {
+	color: #4a5b9b;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	border-bottom: 1px solid #8d93a6;
+}
+
+.map-tooltip-dead {
+	text-decoration: line-through;
+}
+
+.recherche-title {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.info-entity-label-title {
+	font-weight: bold;
+	font-size: 11px;
+	text-align: left;
+}
+
+.info-entity-label-value {
+	font-size: 11px;
+	text-align: left;
+}
+
+.roy-barbare {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #5584ed;
+}
+
+.roy-EDB {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #1f6a1f;
+	position: relative;
+	z-index: 100;
+}
+
+.roy-troll {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dc0707;
+	position: relative;
+	z-index: 100;
+}
+
+.roy-scav {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fff220;
+	position: relative;
+	z-index: 100;
+}
+
+.roy-orc {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e70bc2;
+	position: relative;
+	z-index: 100;
+}
+
+.roy-nain {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f58f16;
+	position: relative;
+	z-index: 100;
+}
+
+.roy-MV {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #6b291d;
+	position: relative;
+	z-index: 100;
+}
+
+.roy-vorsh {
+	border-style: solid;
+	border-width: 1px;
+	border-color: Black;
+	position: relative;
+	z-index: 100;
+}
+
+.roy-humain {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #31148d;
+	position: relative;
+	z-index: 100;
+}
+
+.roy-HE {
+	border-style: solid;
+	border-width: 1px;
+	border-color: White;
+	position: relative;
+	z-index: 100;
+}
+
+.roy-vamp {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #989695;
+	position: relative;
+	z-index: 100;
+}
+
+.stats-libelle {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.info-alert {
+	color: #117720;
+	text-decoration: blink;
+}
+
+.news-titre {
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.news-info {
+	font-size: 9px;
+}
+
+.news-attention {
+	font-size: 9px;
+	color: #9a6221;
+}
+
+.news-danger {
+	font-size: 9px;
+	color: #d7150b;
+}
+
+.news-annonce {
+	font-size: 9px;
+	color: #212996;
+}
+
+.log-info{
+	
+}
+
+.log-attention{
+	color: #9a6221;
+}
+
+.log-danger{
+	color: #d7150b;
+}
+
+.log-annonce{
+	color: #212996;
+}
+
+.img-bat {
+	vertical-align: middle;
+	height: 85%;
+}
+
+.img-ads {
+	vertical-align: middle;
+	height: 67%;
+}
+
+.img-def {
+	vertical-align: middle;
+	height: 100%;
+}
+
+.img-pnj {
+	vertical-align: middle;
+	height: 67%;
+}
+
+.img-flag {
+	vertical-align: middle;
+	height: 75%;
+}
+
+.img-pers {
+	vertical-align: middle;
+	height: 63%;
+}
+
+.action-title {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.stats-title {
+	font-size: 15px;
+	font-weight: bold;
+	color: #5b5c96;
+}
+
+.tool-img-title {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.tool-img-libelle {
+	font-size: 12px;
+}
+
+.login form {
+    /* Pour le centrer dans la page */
+    margin: 0 auto;
+    width: 300px;
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.login form div + div {
+    margin-top: 1em;
+}
+
+.login-titre{
+	text-align: center;
+	font: 2em sans-serif;
+	color: #5b5c96;
+	font-weight: bold;
+}
+
+.login-wait{
+	text-align: center;
+	font: 1em sans-serif;
+	color: #5b5c96;
+}
+
+.login label {
+    /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.login input {
+    /* Afin de s'assurer que tous les champs textuels utilisent la même police
+       Par défaut, textarea utilise une police à espacement constant */
+    font: 1em sans-serif;
+
+    /* Pour donner la même dimension à tous les champs textuels */
+    width: 200px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Pour harmoniser l'apparence des bordures des champs textuels */
+    border: 1px solid #999;
+}
+
+.login input:focus {
+    /* Afin de rehausser les éléments actifs */
+    border-color: #000;
+}
+
+.button {
+    /* Pour positionner les boutons de la même manière que les champs textuels */
+    padding-left: 90px; /* même dimension que les étiquettes */
+}
+
+.login-check {
+    width:auto;
+}
+
+.login button {
+    /* Cette marge représente approximativement le même espace
+       que celui entre les étiquettes et les champs textuels */
+    margin-left: .5em;
+}

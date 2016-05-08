@@ -1,0 +1,78 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the    -->
+<!-- browser's rendering engine into               -->
+<!-- "Standards Mode". Replacing this declaration  -->
+<!-- with a "Quirks Mode" doctype may lead to some -->
+<!-- differences in layout.                        -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+    <link type="text/css" rel="stylesheet" href="EyeOnStarshine.css">
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title>Eye on Starshine</title>
+
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+    <script type="text/javascript" src="EyeOnStarshine/EyeOnStarshine.nocache.js"></script>
+  </head>
+
+  <!--                                           -->
+  <!-- The body can have arbitrary html, or      -->
+  <!-- you can leave the body empty if you want  -->
+  <!-- to create a completely dynamic UI.        -->
+  <!--                                           -->
+  <body>
+
+    <!-- OPTIONAL: include this if you want history support -->
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+
+    <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Vous devez activer le JavaScript dans votre navigateur web afin de correctement naviguer sur Eye on Starshine.
+      </div>
+    </noscript>
+    
+    <!-- Login form-->
+    <div class="login">
+	    <form id="login-form" action="login">
+			<div id="login-titre" class="login-titre">
+				Eye on Starshine
+			</div>
+			<br/>
+			<div id="login-wait" class="login-wait">
+				Veuillez patienter...
+			</div>
+			<div id="login-fields" style="display:none">
+				<div>	    
+					<label for="login">Login </label>
+					<input type="text" tabindex="0" name="username" id="login-username">
+				</div>
+				<div>	
+					<label for="passwd">Password </label>
+					<input type="password" tabindex="0" name="password" id="login-password" >
+				</div>
+				<div class="login-check">
+					<label for="stay-connected">Rester Connecté</label>
+					<input type="checkbox" id="login-check" name="stay">
+				</div>
+				<div class="login-button">
+					<label></label>
+					<button type="button" id="login-button">Connexion</button>
+				</div>
+			</div>
+		</form>
+	</div>
+  </body>
+</html>
